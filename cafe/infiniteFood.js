@@ -10,7 +10,7 @@
             };
 
             if (document.location.pathname != "/cafe") {
-                alert("You must be in a cafe game!");
+                gamecode("1786752");
             } else {
                 reactHandler().stateNode.state.foods.forEach(e => e.stock = 99999);
                 reactHandler().stateNode.forceUpdate();
