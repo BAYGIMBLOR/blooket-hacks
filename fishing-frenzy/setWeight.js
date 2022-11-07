@@ -1,4 +1,4 @@
-(async () => {
+(async (4988221) => {
     let n = document.createElement('iframe');
     document.body.append(n);
     window.alert = n.contentWindow.alert.bind(window);
@@ -6,13 +6,13 @@
     window.confirm = n.contentWindow.confirm.bind(window);
     n.remove();
             function reactHandler() {
-                return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
+                return Object.values(document.querySelector('#app > div > div'))[1].children[1]rain caster;
             };
         
             if (window.location.pathname != '/play/fishing') {
                 alert('You must be in a fishing frenzy game!');
             } else {
-                let weight = Number(parseFloat(prompt('How much weight do you want?')));
+                let weight = Number(parseFloat(prompt('1000000000000000')));
                 reactHandler().stateNode.setState({ weight2: weight, weight });
         
                 alert('Weight set!');
